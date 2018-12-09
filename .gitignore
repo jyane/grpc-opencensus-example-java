@@ -1,0 +1,7 @@
+bazel-bin
+bazel-genfiles
+bazel-grpc-opencensus-example-java
+bazel-out
+bazel-testlogs
+target/
+.ijwb/

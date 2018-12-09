@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package jyane.grpc;
+
+message SimpleRequest {
+  string str = 1;
+}
+
+message SimpleResponse {
+  string str = 1;
+}
+
+service TestService {
+  rpc UnaryCall(SimpleRequest) returns (SimpleResponse);
+}
